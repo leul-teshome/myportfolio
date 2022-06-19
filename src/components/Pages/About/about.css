@@ -1,0 +1,49 @@
+.container{
+    padding: 10px 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_title{
+    text-align: center;
+    margin: 20px 0 20px 0;
+   
+}
+
+.linee{
+    margin-top: 20px;
+    height: 450px;
+    width: 70px;
+    background: #ed0c329a;
+    margin-left: 15px;
+}
+
+.wrapper p{
+    color: rgb(3, 53, 53);
+    font-style: italic;
+    text-align: start;
+    color: black;
+    font-style: normal;
+}
+
+
+
+
+@media screen and (max-width: 980px){
+    .container{
+        padding: 10px 30px;
+    }
+    .wrapper p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .linee{
+        height: 750px;
+        width: 120px;
+        background: #ed0c329a;
+    }
+}

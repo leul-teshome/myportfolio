@@ -1,0 +1,16 @@
+.cta_container{
+    margin-top: 90px;
+}
+
+.cta_wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta_para{
+    text-align: center;
+    margin-bottom: 20px;
+}

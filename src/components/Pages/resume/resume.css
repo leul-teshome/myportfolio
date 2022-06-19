@@ -1,0 +1,29 @@
+.cta_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 80px 0;
+}
+
+.cta_link{
+    padding: 20px 85px;
+    outline: none;
+    border: none;
+    background: #ed0c32b2;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cta_link:hover{
+    background: #ed0c3298;
+}
+
+i{
+    position: relative;
+    right: 50px;
+    font-size: 30px;
+    top: 7px;
+    color: white;
+}

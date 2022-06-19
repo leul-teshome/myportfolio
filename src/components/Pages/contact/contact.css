@@ -1,0 +1,132 @@
+.form_containers{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.left_wrapper{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.socialcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social{
+    margin-top: 20px;
+}
+
+.social a{
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.social a:hover{
+    color: #ed0c32b2;
+}
+
+.socialcontainer p{
+    text-align: center;
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.left_wrapper h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    color: #ed0c32b2;
+}
+
+.form_wrapper form{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.right_wrapper{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.form_wrapper input{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 14%;
+    border: 1.5px solid rgba(4, 50, 50, 0.906);
+    background: rgb(255, 255, 255);;
+}
+
+.form_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    padding: 10px 100px;
+    border: 1.5px solid rgba(4, 50, 50, 0.906);
+    background: rgb(255, 255, 255);;
+}
+
+.formbtn{
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    background: #000000;
+    border-radius: 10px;
+    font-size: 15px;
+    letter-spacing: 4px;
+    font-weight: 800;
+    margin-top: 20px;
+    color: white;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+
+.formbtn:hover{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1070px){
+    .form_containers{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 0px 20px;
+    }
+    .left_wrapper{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .left_wrapper h1{
+        font-size: 30px;
+        text-transform: capitalize;
+        /* color: rgb(0, 0, 0); */
+    }
+
+    .input{
+        padding: 0px 50px
+    }
+}
